@@ -8,6 +8,17 @@
     <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
-    
+    <div id="imc">
+        <form action="" method="post">
+            <h1>Calculateur IMC</h1>
+            <label for="poids">Poids :</label>
+                <input type="number" name="poids" id="poids" placeholder="Votre poids en KG"><br>
+                <label for="poids">Taille :</label>
+                <input type="number" name="taille" id="taille" placeholder="Votre taille en M"><br>
+                <input type="button" value="Calculer" onclick=resultat()><br>
+                <div id="resultat">
+                </div>
+        </form>
+    </div>
 </body>
 </html>
